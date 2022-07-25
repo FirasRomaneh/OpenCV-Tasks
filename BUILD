@@ -17,7 +17,7 @@ cc_library(
 )
 
 cc_binary(
-    name = "test",
-    srcs = ["test1.cpp"],
+    name = "Camera",
+    srcs = ["OpenCameraWithThread.cpp"],
     deps = [":opencv"],
 )
